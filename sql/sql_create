@@ -1,0 +1,13 @@
+create TABLE  public.test
+                            (id int,
+                             uid text,
+                             strain text,
+                             cannabinoid_abbreviation text,
+                             cannabinoid text,
+                             terpene text,
+                             medical_use text,
+                             health_benefit text,
+                             category text,
+                             type text,
+                             buzzword text,
+                             brand text);

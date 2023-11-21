@@ -1,0 +1,14 @@
+insert into test
+                    select   id,
+                             uid,
+                             strain,
+                             cannabinoid_abbreviation,
+                             cannabinoid,
+                             terpene,
+                             medical_use,
+                             health_benefit,
+                             category,
+                             type,
+                             buzzword,
+                             brand
+                    from json_populate_recordset(NULL::test, %s)
