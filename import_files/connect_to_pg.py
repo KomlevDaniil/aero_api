@@ -1,4 +1,3 @@
-import clickhouse_driver 
 from airflow.models.variable import Variable
 from airflow.models.param import Param
 from airflow.providers.postgres.operators.postgres import PostgresOperator
